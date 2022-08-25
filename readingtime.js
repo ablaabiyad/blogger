@@ -180,7 +180,7 @@ Licensed under the MIT license
         break;
 			// if s.lang is French
       case 'fr':
-        lessThanAMinute = s.lessThanAMinuteString || "1 minute";
+        lessThanAMinute = s.lessThanAMinuteString || "Moins d'une minute";
         minShortForm = 'min';
         break;
 			// if s.lang is Hungarian
@@ -255,7 +255,7 @@ Licensed under the MIT license
         break;
 			// default s.lang in english
 			default:
-        lessThanAMinute = s.lessThanAMinuteString || '1 minute';
+        lessThanAMinute = s.lessThanAMinuteString || '~1 minute';
         minShortForm = 'min';
     }
 
